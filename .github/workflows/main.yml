@@ -50,9 +50,9 @@ jobs:
     - name: Test CI
       uses: dabao1955/kernel_build_action@main
       with: 
-          kernel-url: https://github.com/OnePlusOSS/android_kernel_oneplus_sm8250
+          kernel-url: https://github.com/brsz/android_kernel_oneplus_sm8250
           kernel-dir: msm-4.19
-          branch: oneplus/sm8250_s_12.1
+          branch: main
           config: vendor/kona_defconfig
           arch: arm64
           aosp-gcc: true
