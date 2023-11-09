@@ -15,7 +15,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/OnePlusOSS/android_kernel_oneplus_sm8250
-          branch:oneplus/sm8250_s_12.1
+          branch: oneplus/sm8250_s_12.1
           config: vendor/kona_defconfig
           arch: arm64
           aosp-gcc: true
